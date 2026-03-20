@@ -1,0 +1,15 @@
+{
+  "name": "vite-cjs-node-reproducer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build",
+    "run": "npm run build && node ./dist/index.cjs"
+  },
+  "private": true,
+  "dependencies": {
+    "vite": "^8.0.1"
+  }
+}
